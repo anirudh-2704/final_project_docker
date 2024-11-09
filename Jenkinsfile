@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB_CREDENTIALS = credentials('anirudhh27-anirudh123')
+        DOCKER_HUB_CREDENTIALS = credentials('dockerhub-credentials')
         DOCKER_IMAGE = "anirudhh27/react-jenkins-docker-k8s"
     }
     stages {
